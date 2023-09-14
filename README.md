@@ -11,3 +11,7 @@ This is where the magic happens. The translate function of the transform propert
 -50% for the X-axis (translateX) shifts the element left by half of its width.
 -50% for the Y-axis (translateY) shifts the element up by half of its height.
 When combined with the top and left values, this ensures that the element is perfectly centered, no matter its size.
+
+Relative Position: Setting the top, right, bottom, and left properties of an element with position: relative; property will cause it to adjust from its normal position. The other objects or elements will not fill the gap.
+Absolute Position: An element with position: absolute; will cause it to adjust its position with respect to its parent. If no parent is present, then it uses the document body as parent.
+Fixed Position: Position: fixed; property applied to an element will cause it to always stay in the same place even if the page is scrolled. To position the element we use top, right, bottom, left properties.
